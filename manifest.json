@@ -1,7 +1,7 @@
 {
 "name": "Hacker News iOS Style",
 "short_name": "HN",
-"start_url": "/index.html",
+"start_url": "./index.html",
 "display": "standalone",
 "background_color": "#000000",
 "theme_color": "#000000",
