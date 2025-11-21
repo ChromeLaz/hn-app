@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hacker News — iOS Style</title>
+
+
+<link rel="manifest" href="manifest.json" />
+<link rel="stylesheet" href="style.css" />
+<meta name="theme-color" content="#000000" />
+
+
+<!-- iOS standalone -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+</head>
+<body>
+<header>
+<h1>Hacker News</h1>
+<div class="tabs">
+<button id="tab-news" class="tab active">News</button>
+<button id="tab-best" class="tab">Best</button>
+</div>
+</header>
+
+
+<main id="news-container">Loading…</main>
+
+
+<script src="app.js"></script>
+</body>
+</html>
